@@ -18,3 +18,6 @@ python game.py
 ```bash
 python -m unittest tests/test_board.py
 ```
+
+## Demo
+![demo](images/demo.gif)
