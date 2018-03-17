@@ -83,6 +83,10 @@ class Board:
         return board
 
     @property
+    def state(self):
+        return self._board.copy()
+
+    @property
     def height(self) -> int:
         return self._board.shape[0]
 
